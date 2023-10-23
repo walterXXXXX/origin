@@ -1,5 +1,0 @@
-cmake_minimum_required(VERSION 3.22.0)
-project(Leaver)
-add_library(LeaverLib SHARED LeaverLib.h LeaverLib.cpp)
-add_executable(Leaver Leaver.cpp)
-target_link_libraries(Leaver LeaverLib)
